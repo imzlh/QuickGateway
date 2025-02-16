@@ -4,3 +4,6 @@ qjs
 libqjs.*
 CMakeCache.txt
 CMakeFiles/**
+.cmake/**
+build
+build/**
