@@ -21,7 +21,13 @@ jobs:
         env:
           BUILD_TARGET: ${{ matrix.target }}
         run: cmake . && make
-      - uses: actions/upload-artifact@v4
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: QGateway-${{ matrix.target }}
-          path: qcli
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          release_name: 'latest'
+          asset_name: QGateway-${{ matrix.target }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "这是已经编译完成的版本"
+          file: qcli
