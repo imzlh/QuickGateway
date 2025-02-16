@@ -1,9 +1,8 @@
-name: backend
+name: build
 
 on:
-  push
-  pull_request
-  workflow_call
+  push:
+    branches: [ "main" ]
 
 jobs:
   cross:
