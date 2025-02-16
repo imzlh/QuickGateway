@@ -32,7 +32,9 @@
         "errno.h": "c",
         "stdbool.h": "c",
         "format": "c",
-        "io_context": "c"
+        "io_context": "c",
+        "internet": "c",
+        "string_view": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
