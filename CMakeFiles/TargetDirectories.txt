@@ -1,0 +1,10 @@
+/root/qjs/CMakeFiles/qjs.dir
+/root/qjs/CMakeFiles/qjsc.dir
+/root/qjs/CMakeFiles/qcgi_exe.dir
+/root/qjs/CMakeFiles/qjs_exe.dir
+/root/qjs/CMakeFiles/edit_cache.dir
+/root/qjs/CMakeFiles/rebuild_cache.dir
+/root/qjs/CMakeFiles/list_install_components.dir
+/root/qjs/CMakeFiles/install.dir
+/root/qjs/CMakeFiles/install/local.dir
+/root/qjs/CMakeFiles/install/strip.dir
