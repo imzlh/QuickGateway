@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file,CMakeFiles/function_source.dir/link.d CMakeFiles/function_source.dir/gen/function_source.c.o "CMakeFiles/function_source.dir/quickjs-libc.c.o" -o function_source  libqjs.a -ldl -lm

@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG -Wl,--export-dynamic -rdynamic -Wl,--dependency-file,CMakeFiles/qcgi_exe.dir/link.d CMakeFiles/qcgi_exe.dir/gen/repl.c.o CMakeFiles/qcgi_exe.dir/gen/standalone.c.o CMakeFiles/qcgi_exe.dir/main.c.o "CMakeFiles/qcgi_exe.dir/quickjs-libc.c.o" -o qcli  libqjs.a -ldl -lm
