@@ -2,3 +2,5 @@ qcli
 qjsc
 qjs
 libqjs.*
+CMakeCache.txt
+CMakeFiles/**
